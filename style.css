@@ -1,0 +1,243 @@
+  body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+  }
+  
+  .navbar {
+    background: #222;
+    
+  }
+
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  
+  .nav-link:hover {
+    color: #000;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .header0 {
+    background-image: url('Covid19pic.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+  .header1 {
+    background-image: url('AdviceIcon.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+  .header2 {
+    background-image: url('SourcesIcon.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+  .header3 {
+    background-image: url('IncomingEmailLogo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 50%;
+    min-width: 50%;
+  }
+
+
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  
+  .description h1 {
+    color:#fff;
+    left: 49%;
+    position: absolute;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px; 
+  }
+  
+  .AboutRedBox {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: #ff3333;
+  }
+  
+  .AboutRedBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+
+  .GrayBox {
+    margin: 6em auto;
+    padding: 3em;
+    position: relative;
+    background-color: gray;
+  }
+
+  .GrayBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+   }
+
+
+  .RedBox {
+    margin: 6em auto;
+    padding: 3em;
+    position: relative;
+    background-color: #ff3333;
+   }
+
+  .RedBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+   }
+
+   .btn-space {
+     margin: 10px;
+   }
+
+  .InfoGrayBox {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: gray;
+  }
+  
+  .InfoGrayBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+   .page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+  }
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  } 
+
+  .AdviceGrayBox {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: gray;
+  }
+  
+  .AdviceGrayBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .AdviceYellowBox {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: darkgoldenrod;
+  }
+  
+  .AdviceYellow-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+
+  .SourcesGrayBox {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: gray;
+  }
+
+  .SourcesGrayBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .SourcesGreenBox {
+    margin: 4em auto;
+    padding: 2.5em;
+    position: relative;
+    background-color: darkgreen;
+  }
+
+  .SourcesGreenBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .ContactBlueBox {
+    margin: 6em auto;
+    padding: 3em;
+    position: relative;
+    background-color: royalblue;
+   }
+
+  .ContactBlueBox-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+   }
+
+
+   input[type="text"]
+   {
+   background-color: #fff;
+   color: #000;
+   width: 70%;
+   }
+
+   input[type="email"]
+   {
+   background-color: #fff;
+   color: #000;
+   width: 70%;
+   }
